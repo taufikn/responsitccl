@@ -47,7 +47,7 @@ services:
             - ./tccl:/var/www/html/
         networks:
             - default
-        ```
+```
 
 Berikut adalah perintah untuk membangun dari container diatas.
 > sudo docker-compose build </br>
