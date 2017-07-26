@@ -30,8 +30,8 @@ Kemudian jalankan Dockerfile dengan perintah sebagai berikut:
 > sudo docker run --name web -d -p 8080:80 tccl
 
 Perintah ini yaitu menjalankan images *tccl* pada localhost port 8080:80 dengan nama **web**
-
-<p align="center"><img src="c.png"/><br></p>
+</br>
+<p align="center"><img src="images/c.png"/><br></p>
 
 
 ## Docker Compose
@@ -48,15 +48,16 @@ services:
         networks:
             - default
         ```
+
 Berikut adalah perintah untuk membangun dari container diatas.
 > sudo docker-compose build </br>
-<p align="center"><img src="f.png"/><br></p>
+<p align="center"><img src="images/f.png"/><br></p>
 
 
 Perintah untuk menjalankan container yang telah dibangun, dan maka hasilnya dapat dilihat dibawah ini:
 
 > sudo docker-compose up
-<p align="center"><img src="g.png"/><br></p>
+<p align="center"><img src="images/g.png"/><br></p>
 
 Setelah berhasil menjalankan docker compose, kemudian akses http://localhost:8001/ pada browser sebagai host Docker, maka akan muncul halaman web seperti dibawah ini:
-<p align="center"><img src="e.png"/><br></p>
+<p align="center"><img src="images/e.png"/><br></p>
